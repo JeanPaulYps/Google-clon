@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Header
+{
+    float: right; 
+}
+
+.Footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.Footer p{
+    display: inline;
+}
+
+.Main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+    max-height: 95vh ;
+}
+
+.Footer__Element--alignRight
+{
+    float: right; 
+}
