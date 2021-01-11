@@ -1,3 +1,4 @@
+/* Gray Color #9aa0a6*/
 *{
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +6,13 @@
 }
 .Header
 {
-    float: right; 
+    overflow: hidden;
+    
+}
+
+.Header__Element
+{
+    float: right;
 }
 
 .Footer
@@ -28,9 +35,25 @@
     text-align: center;
     min-height: 90vh;
     max-height: 95vh ;
+    margin: 0 auto;
 }
 
-.Footer__Element--alignRight
+.SearchInput
 {
-    float: right; 
+    border: 1px solid black;
+    border-radius: 20px;
+    width:60%;
+    margin: 20px 0;
+}
+.TextSearch
+{
+    width: 95%;
+    
+}
+
+.SearchIcon
+{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
 }
